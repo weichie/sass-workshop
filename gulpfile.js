@@ -104,7 +104,7 @@ gulp.task( 'watch', function() {
 
 gulp.task('serve', function() {
 	browserSync.init({
-        //proxy: "weichie/appspark/"
+        //proxy: "weichie/"
         server: './'
     });
 
